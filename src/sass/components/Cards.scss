@@ -1,6 +1,3 @@
-@import "/src/sass/base/palette";
-@import "/src/sass/base/resets";
-@import "/src/sass/base/typography";
 
 .card {
   display: flex;
@@ -23,23 +20,23 @@
     overflow: hidden;
     transition: transform 0.3s ease, object-position 0.3s ease;
 
-    &-3 {
-      &:focus {
-        transform: scale(1.2);
-        object-position: 0.2rem;
-      }
-    }
+    // &-3 {
+    //   &:focus {
+    //     transform: scale(1.2);
+    //     object-position: 0.2rem;
+    //   }
+    // }
 
-    &-4 {
-      &:focus {
-        object-position: 0rem 1rem;
-      }
-    }
+    // &-4 {
+    //   &:focus {
+    //     object-position: 0rem 1rem;
+    //   }
+    // }
 
-    &:focus {
-      transform: scale(1.3);
-      transform-origin: bottom;
-    }
+    // &:focus {
+    //   transform: scale(1.3);
+    //   transform-origin: bottom;
+    // }
     
   }
 
@@ -59,8 +56,8 @@
     cursor: pointer;
     transition: background-color 1s ease;
 
-    &:focus {
-      background-color: var(--color-3);
-    }
+    // &:focus {
+    //   background-color: var(--color-3);
+    // }
   }
 }
