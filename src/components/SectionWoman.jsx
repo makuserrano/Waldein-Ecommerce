@@ -18,14 +18,14 @@ const SectionWoman = () => {
         <Card
           imageSrc={img1}
           description="Poncho white"
-          buttonText="buy for 30 $USD"
+          buttonText="Comprar por $90.000"
           cardNumber={1}
           alt="img-woman-1"
         />
         <Card
           imageSrc={img2}
           description="blazer grey"
-          buttonText="buy for 79 $USD"
+          buttonText="Comprar por $120.000"
           cardNumber={2}
           alt="img-woman-2"
 
@@ -33,7 +33,7 @@ const SectionWoman = () => {
         <Card
           imageSrc={img3}
           description="Bolso Fendi"
-          buttonText="buy for 60 $USD"
+          buttonText="Comprar por $99.000"
           cardNumber={3}
           alt="img-woman-3"
 
@@ -41,7 +41,7 @@ const SectionWoman = () => {
         <Card
           imageSrc={img4}
           description="Blazer cream"
-          buttonText="buy for 58 $USD"
+          buttonText="Comprar por $130.000"
           cardNumber={4}
           alt="img-woman-4"
 
@@ -49,7 +49,7 @@ const SectionWoman = () => {
         <Card
           imageSrc={img5}
           description="Classic sweatter"
-          buttonText="buy for 35 $USD"
+          buttonText="Comprar por $65.000"
           cardNumber={5}
           alt="img-woman-5"
 
@@ -57,8 +57,8 @@ const SectionWoman = () => {
         <Card
           imageSrc={img6}
           description="Classic jacket"
-          buttonText="buy for 40 $USD"
-          cardNumber={6}
+          buttonText="Comprar por $114.000"
+          cardNumber={7}
           alt="img-woman-6"
 
         />

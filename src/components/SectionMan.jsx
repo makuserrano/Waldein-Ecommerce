@@ -16,35 +16,35 @@ const SectionMen = () => {
         <Card
           imageSrc={img1}
           description="Tayson white"
-          buttonText="buy for 30 $USD"
+          buttonText="Comprar por $50.000"
           cardNumber={1}
           alt="img-men-1"
         />
         <Card
           imageSrc={img2}
           description="Classic jacket"
-          buttonText="buy for 43 $USD"
+          buttonText="Comprar por $90.000"
           cardNumber={2}
           alt="img-men-2"
         />
         <Card
           imageSrc={img3}
           description="Tennis rainbow"
-          buttonText="buy for 50 $USD"
+          buttonText="Comprar por $150.000"
           cardNumber={3}
           alt="img-men-3"
         />
         <Card
           imageSrc={img4}
           description="Waldem t-shirt"
-          buttonText="buy for 21 $USD"
+          buttonText="Comprar por $45.000"
           cardNumber={4}
           alt="img-men-4"
         />
         <Card
           imageSrc={img5}
           description="Classic sweatter"
-          buttonText="buy for 35 $USD"
+          buttonText="Comprar por $53.000"
           cardNumber={5}
           alt="img-men-4"
         />

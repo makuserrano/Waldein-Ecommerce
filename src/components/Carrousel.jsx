@@ -6,9 +6,7 @@ const Carrousel = ({ children }) => {
   const settings = {
     dots: true,
     infinite: true,
-    centerMode: true,
     speed: 500,
-    fade: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
@@ -16,13 +14,31 @@ const Carrousel = ({ children }) => {
       {
         breakpoint: 768,
         settings: {
-          centerMode: false,
           slidesToShow: 1,
           infinite: true,
           slidesToScroll: 1,
           dots: true,
           arrows: false,
-          fade: true,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          infinite: true,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 3,
+          infinite: true,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false,
         },
       },
     ],
