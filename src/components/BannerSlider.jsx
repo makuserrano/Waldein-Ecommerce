@@ -16,8 +16,7 @@ const SimpleSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 768,
@@ -38,16 +37,16 @@ const SimpleSlider = () => {
         <div className="slider__img">
           <h2 className="slider__title"> NEW COLLECTION</h2>
           <h4 className="slider__title__h4">2024</h4>
-          <img src={img1} className="slider__img__1" />
+          <img src={img1} className="slider__img__1" alt="img-slider-1" />
         </div>
         <div className="slider__img">
-          <img src={img2} className="slider__img__2" />
+          <img src={img2} className="slider__img__2" alt="img-slider-2"/>
           <button className="slider__img__2__btn"> 
             SHOP NOW
           </button>
         </div>
         <div className="slider__img">
-          <img src={img3} className="slider__img__3" />
+          <img src={img3} className="slider__img__3" alt="img-slider-3" />
           <Logo className="slider__img__3__logo" />
         </div>
       </Slider>

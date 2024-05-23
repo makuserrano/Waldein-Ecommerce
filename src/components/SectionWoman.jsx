@@ -20,36 +20,47 @@ const SectionWoman = () => {
           description="Poncho white"
           buttonText="buy for 30 $USD"
           cardNumber={1}
+          alt="img-woman-1"
         />
         <Card
           imageSrc={img2}
           description="blazer grey"
           buttonText="buy for 79 $USD"
           cardNumber={2}
+          alt="img-woman-2"
+
         />
         <Card
           imageSrc={img3}
           description="Bolso Fendi"
           buttonText="buy for 60 $USD"
           cardNumber={3}
+          alt="img-woman-3"
+
         />
         <Card
           imageSrc={img4}
           description="Blazer cream"
           buttonText="buy for 58 $USD"
           cardNumber={4}
+          alt="img-woman-4"
+
         />
         <Card
           imageSrc={img5}
           description="Classic sweatter"
           buttonText="buy for 35 $USD"
           cardNumber={5}
+          alt="img-woman-5"
+
         />
         <Card
           imageSrc={img6}
           description="Classic jacket"
           buttonText="buy for 40 $USD"
           cardNumber={6}
+          alt="img-woman-6"
+
         />
 
         {/* Agrega más tarjetas aquí si es necesario */}
