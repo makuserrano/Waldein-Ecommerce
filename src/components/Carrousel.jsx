@@ -10,6 +10,7 @@ const Carrousel = ({ children }) => {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
+    
     responsive: [
       {
         breakpoint: 768,
@@ -19,6 +20,7 @@ const Carrousel = ({ children }) => {
           slidesToScroll: 1,
           dots: true,
           arrows: false,
+          fade: true,
         },
       },
       {
